@@ -1,0 +1,135 @@
+
+//  Variables
+
+$green: #6eb43f;
+$navyBlue: #004990;
+$grey: #e5e5e5;
+$darkGrey: #2b3034;
+$pGrey: #495966;
+
+body {
+    font-family: 'dinpro', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    border-top: 5px solid $green;
+}
+main {
+	padding: 2rem 0 0 0;
+}
+
+// Testimonials
+.testimonial-container {
+	background: url('../img/testimonial-bg.jpg') no-repeat top left;
+	background-size: cover;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+
+	blockquote {
+		color: $navyBlue;
+		padding: 0px 10rem;
+		&:before {
+			content: '';
+			width: 26px;
+			height: 22px;
+			background: url('../img/quote-marks.png') no-repeat center;	
+			display: block;
+			margin: 1rem auto;
+		}
+	}
+	
+	.cite {
+		display: block;
+		text-align: center;
+	}
+}
+
+
+.services-container {
+	padding-top: 5rem;
+	padding-bottom: 2rem;
+
+	.services-sub-contaitner {
+		border-right: 1px solid $grey;
+		padding: 1rem;
+
+		p {
+			color: $pGrey;
+			font-size: 0.875rem;
+		}
+
+		a {
+			margin-top: 2rem;
+			display: block;
+			border: 1px solid $navyBlue;
+			padding: 0.8rem;
+			width: 142px;
+		}
+	}
+}
+
+.oppertunities-contianer {
+	background: $navyBlue;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+
+	.oppertunities-inner-container {
+		padding: 2rem 16rem;
+		background: url('../img/oppertunities-bg.jpg') no-repeat center;
+		background-size: cover;
+
+		h3, p {
+			color: #fff;
+		}
+
+		p {
+			font-size: 0.9375rem;		
+		}
+
+		a {
+			display: block;
+			margin: 0 auto;
+			text-align: center;
+			border: 1px solid #fff;
+			width: 200px;
+			padding: 0.8rem;
+			color: #fff;
+		}
+	}
+
+}
+.carriers-container {
+	background: #e6e6e6;
+	color: #fff;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+
+	h4 {
+		color: #585858;
+		font-family: "dinProRegular", sans-serif;
+		text-transform: uppercase;
+	    font-size: 15px;
+		font-weight: 600;
+	}
+
+	.carriers-image-container {
+		.slide {
+			img {
+				margin: 0 auto;
+			}
+		}
+	}
+}
+
+// Imports
+@import "modules/_styling";
+@import "modules/_fonts";
+@import "modules/_header";
+@import "modules/_slider";
+@import "modules/_card";
+@import "modules/_footer";
+@import "modules/_animate";
+
+// Responsive css
+@import "modules/_laptop";
+@import "modules/_tablet";
+@import "modules/_mobile";

@@ -1,0 +1,49 @@
+@media only screen and (max-width:1440px) {
+	.header-container {
+		.navbar {
+			ul.left-hand-menu {
+				width: 64%;
+
+				li {
+					left: 0; 
+
+					a {
+						padding: 1rem 0.5rem;
+					}
+				}
+			}
+
+			 ul.right-hand-menu {
+			 	width: 36%;
+
+			 	li.quote {
+			 		a {
+			 			padding: 1rem 0.5rem;
+			 		}
+			 	}
+			}
+		}
+
+		.sub-header {
+			.global-container {
+				padding-top: 0.5rem;
+				padding-left: 2rem;
+			}
+			.live-chat-container {
+				padding-top: 0.5rem;
+			}
+
+			.form-group {
+				 input {
+				 	padding-left: 1rem;
+				 	margin-left: 0;
+				 }
+
+				 button {
+					right: 30px;
+					top: 40%;
+				 }
+			}
+		} 
+	}
+}

@@ -1,0 +1,121 @@
+.header-container {
+
+	.logo-container {
+		text-align: center;
+		padding-top: 1.5rem;
+		padding-bottom: 1rem;
+	}
+
+	.navbar {
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+
+		ul.left-hand-menu {
+			width: 75%;
+		
+			li {
+				position: relative;
+				left: 20%;
+
+				a {
+					padding: 1rem;
+					text-align: center;
+					text-transform: uppercase;
+					display: block;
+				}
+			}
+		}
+
+		ul.right-hand-menu {
+			width: 25%;
+
+			span {
+				padding-top: 1rem;
+			}
+
+			li {
+				
+				a {
+					padding: 1rem;
+					text-transform: uppercase;
+					display: block;
+				}
+
+				&.logout {
+					background: url('../img/logout.png') no-repeat center right;
+					padding-right: 0.5rem;
+				}
+
+				&.quote {
+					border: 1px solid $navyBlue;
+					margin-left: 0.5rem;
+
+					a {
+						padding: 1rem;
+					}
+				}
+			}			
+		}
+	}
+
+	.sub-header {
+		background: $grey;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+
+		p.global {
+			background: url('../img/globe.png') no-repeat center left;
+			padding-left: 3rem;
+			display: inline;
+		}
+
+		p.united-kingdom {
+			background: url('../img/union-jack.jpg') no-repeat center left;
+			padding-left: 3rem;
+			display: inline;
+			margin-left: 1rem;
+		}
+
+		.form-group {
+			margin-bottom: 0;
+
+			p {
+				margin-bottom: 0;
+			}
+			
+			input {
+				border-radius: 0;
+				display: inline;
+				width: 70%;
+				padding-left: 2rem;
+				margin-left: 1rem;
+			}
+
+			button {
+				background: transparent;
+				position: absolute;
+				right: 80px;
+				top: 50%;
+				transform: translateY(-50%);
+				border-radius: 0;
+				cursor: pointer;
+				padding: 0 1rem;
+				}
+
+		}
+
+		.global-container {
+			padding-left: 5rem;
+		}
+
+		.live-chat-container {
+			text-align: right;
+			padding-right: 3rem;
+
+			p {
+				background: url('../img/chat-icon.png') no-repeat right center;
+				padding-right: 2rem;
+			}
+		}
+	}
+}

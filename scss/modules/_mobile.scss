@@ -1,0 +1,92 @@
+@media only screen and (max-width: 480px) {
+
+	ul {
+		padding-left: 0;
+	}
+
+	.header-container {
+		.logo-container {
+			width: 50%;
+			float: left;
+		}
+
+		.navbar-toggler {
+			top: -50px;
+		}
+
+		.navbar {
+			 ul.left-hand-menu {
+			 	width: 100%;
+
+			 	li {
+			 		left: 0;
+			 	}
+			 }
+
+			 ul.right-hand-menu {
+			 	width: 100%;
+			 	text-align: center;
+
+			 	li.logout {
+			 		background-position: 62% 50%;
+			 	}
+
+			 	span {
+			 		display: none;	
+			 	}
+			}
+		}
+
+		.sub-header {
+			.global-container {
+				padding-left: 15px;
+
+				p {
+					display: block;
+    				margin: 0 auto;
+    				width: 52%;
+				}
+			}
+
+			.parcel-tracking-container {
+				text-align: center;
+
+				.form-group {
+					button {
+						right: 20px;
+					}
+				}
+			}
+
+			.live-chat-container {
+				text-align: center;
+				margin-top: 1rem;
+
+				p {
+					background-position: 70% 50%;
+				}
+			}
+		}
+	}
+
+	.slider-container {
+		.slider-inner-container {
+			.slide {
+		 		background-position: 30% 50%;
+			}
+		}
+	}
+
+	.testimonial-container {
+		blockquote {
+			padding: 1rem;
+		}
+	}
+
+	.oppertunities-contianer {
+		.oppertunities-inner-container {
+			padding: 2rem;
+		}
+	}
+} 
+

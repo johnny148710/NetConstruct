@@ -1,0 +1,57 @@
+@media only screen and (max-width:1024px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+	.header-container {
+
+		.navbar-toggler {
+			z-index: 999;
+		}
+
+		.navbar {
+			ul.left-hand-menu {
+				width: 100%;
+				text-align: center;
+
+				li {
+					left: 0;
+				}
+			}
+			ul.right-hand-menu {
+				width: 100%;
+				text-align: center;
+
+				span {
+					display: none;
+				}
+			}
+		}
+
+		.sub-header {
+			.global-container {
+				padding-left: 2rem;
+			}
+
+			p.united-kingdom {
+				margin-left: 0;
+			}
+
+			.form-group {
+				text-align: center;
+
+				input {
+					width: 100%; 
+				}
+
+				button {
+					padding: 0 0.5rem;
+					right: 0;
+					top: 70%;
+				}
+			}
+		}
+	}
+}
+
